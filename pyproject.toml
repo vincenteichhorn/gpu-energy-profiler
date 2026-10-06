@@ -1,0 +1,25 @@
+[project]
+name = "gpu-energy-profiler"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Vincent Eichhorn",email = "v.eichhorn@posteo.de"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pandas (>=3.0.6,<4.0.0)",
+    "torch (>=2.14.1,<3.0.0)",
+    "plotly (>=7.1.0,<8.0.0)",
+    "nvidia-ml-py (>=12.0,<13.0)"
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
