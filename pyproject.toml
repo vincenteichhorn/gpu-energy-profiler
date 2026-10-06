@@ -1,8 +1,10 @@
 [project]
 name = "gpu-energy-profiler"
-version = "0.1.0"
+version = "0.1.1"
 description = "A tool for profiling GPU energy consumption."
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 homepage = "https://github.com/vincenteichhorn/gpu-energy-profiler"
 repository = "https://github.com/vincenteichhorn/gpu-energy-profiler"
 authors = [

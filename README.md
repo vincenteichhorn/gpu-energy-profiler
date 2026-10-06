@@ -2,7 +2,7 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/gpu-energy-profiler.svg)](https://pypi.org/project/gpu-energy-profiler/)
 [![Python versions](https://img.shields.io/pypi/pyversions/gpu-energy-profiler.svg)](https://pypi.org/project/gpu-energy-profiler/)
-[![License: not specified](https://img.shields.io/badge/license-not%20specified-lightgrey.svg)](#license)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![CI: not configured](https://img.shields.io/badge/CI-not%20configured-lightgrey.svg)](#development)
 
 Profile PyTorch work and measure NVIDIA GPU power and memory use.
@@ -470,5 +470,5 @@ small enough to copy and understand.
 
 ## License
 
-No license file or license metadata is present in version `0.1.0`.
-Add a license before publishing a release that grants reuse rights.
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for
+the complete license text.
